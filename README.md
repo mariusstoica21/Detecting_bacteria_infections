@@ -4,7 +4,7 @@
   >
 </p>
 
-# Detecting bacteria infections
+# Detecting Bacteria Infections from Hospitals using Electrochemical Sensors and a Decision Tree Classifier Solution
 
 The objective of the application is to classify the bacteria siderophores (Pyociannina, Aerobactin, Enterobactin), and determine their concentrations.
 
@@ -20,6 +20,14 @@ Using this plot, the following features are extracted:
 - Max Peak
 - Number of Peaks
 - Area under the curve
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/plots/E1.png"
+    width = "400"
+    height = "auto"
+  >
+</p>
 
 These features represent the input of the decision tree classifier. 
 
@@ -54,6 +62,16 @@ A sample that contains 0 mmol of PyoC, 0 mmol of AeB and 0 mmol of Enb would be 
 - EnB_100:  0
 
 Data has been provided by Iuliu Hațieganu University of Medicine and Pharmacy. 
+
+## Architecture
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/plots/E1.png"
+    width = "400"
+    height = "auto"
+  >
+</p>
 
 ## Installation
 In order to run the scripts from the Demo folder, Jupyter Notebook shall be installed.
