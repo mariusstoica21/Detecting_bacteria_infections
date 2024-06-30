@@ -77,7 +77,7 @@ Data has been provided by Iuliu Hațieganu University of Medicine and Pharmacy.
 In order to run the scripts from the Demo folder, Jupyter Notebook shall be installed.
 
 ## Summary
-✅ G.U.I. 
+❌ G.U.I. 
 
 ✅ Ease of installation
 
