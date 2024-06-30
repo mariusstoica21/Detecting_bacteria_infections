@@ -67,9 +67,9 @@ Data has been provided by Iuliu Hațieganu University of Medicine and Pharmacy.
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/architecture4.PNG"
-    width = "600"
-    height = "350"
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/architecture2.PNG"
+    width = "2000"
+    height = "200"
   >
 </p>
 
@@ -132,61 +132,42 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
 
 ### Results
 
-
-
-### Use-case
-
-As an example, we suppose a football club from Romania has a transfer budget of 2.0 million dollars in order to buy a striker. The club decides to buy a young striker, therefore the following filters are used:
-<ul>
-<li>Price is at most 2 mil. dollars</li>
-<li>Age is at most 23 years old</li>
-</ul>
-
-The neural network displayed a number of football players that matched the criteria, and there are 3 of the possible transfers:
-
-Borja Iglesias, currently playing at Bayer Leverkusen, has previosly played for Espanyol Barcelona and Betis Sevilla. Had a value of 1.7 mil. dollars, with a predicted value of 12 mil. dollars. 
+A prediction was made based on the test set (10 samples). The results are as followed: from the 10 test samples, only one was correctly predicted.
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img11.PNG"
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results1.PNG"
     width = "800"
     height = "auto"
   >
 </p>
 
-Iago Aspas, played most of his time at Celta Vigo. He was also capped for Spain national team, where he has 20 matches. Had a value of 0.8 mil. dollars, with a predicted value of 4.4 mil. dollars. 
+The results are pretty close to be correct. For instance, the prediction of the first sample from the test set was Pyoc_0, AeB_0, EnB_25, while the test set had PyoC_0, AeB_25, EnB_25. For the second sample from the test set, the prediction was PyoC_50, AeB_25, EnB_0, while the test set had PyoC_25, AeB_100, EnB_0.
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img12.PNG"
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results2.PNG"
     width = "800"
     height = "auto"
   >
 </p>
 
-Ashley Barnes, currently playing at West Ham. He is an England international player. Had a value of 0.3 mil. dollars, with a predicted value of 3.3 mil. dollars. 
+Accuracy is 0.1, since, from the 10 test samples, test sample 5 was correctly predicted.
 
 <p align="center">
   <img 
-    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img13.PNG"
-    width = "800"
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results3.PNG"
+    width = "400"
     height = "auto"
   >
 </p>
 
-The total sum needed to acquire all of these players was 2.8 mil dollars. The predicted price of all these 3 footballers was approx. 20 mil dollars. Of course, it is hard to believe that these young prospects would have come to Romania, and also the price needed to pay would have been a little bit higher. But, this use-case could be used as a proof that the neural network outputs valuable players, at a cost lower than it should be.
 
 ### Icons
 
 <ul>
-  <li><a href="https://www.flaticon.com/free-icons/goal" title="goal icons">Goal icons created by Freepik - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/runner" title="runner icons">Runner icons created by Leremy - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/jump" title="jump icons">Jump icons created by Leremy - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/goalkeeper" title="goalkeeper icons">Goalkeeper icons created by Muhammad_Usman - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/inspiration" title="inspiration icons">Inspiration icons created by photo3idea_studio - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Freepik - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/dollar-sign" title="dollar sign icons">Dollar sign icons created by Freepik - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/hourglass" title="hourglass icons">Hourglass icons created by Freepik - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/prediction" title="prediction icons">Prediction icons created by Parzival’ 1997 - Flaticon</a></li>
-  <li><a href="https://www.flaticon.com/free-icons/profit" title="profit icons">Profit icons created by nawicon - Flaticon</a></li> 
+  <li><a href="https://www.flaticon.com/free-icons/bacteria" title="bacteria icons">Bacteria icons created by Good Ware - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/urine-test" title="urine test icons">Urine test icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/blood" title="blood icons">Blood icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/serum" title="serum icons">Serum icons created by Good Ware - Flaticon</a></li>
 </ul>
