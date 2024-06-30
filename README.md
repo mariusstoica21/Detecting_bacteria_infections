@@ -1,3 +1,9 @@
+<p align="left">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/header.png"
+  >
+</p>
+
 # Detecting bacteria infections
 
 The objective of the application is to classify the bacteria siderophores (Pyociannina, Aerobactin, Enterobactin), and determine their concentrations.
