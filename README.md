@@ -69,7 +69,7 @@ Data has been provided by Iuliu Hațieganu University of Medicine and Pharmacy.
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/architecture2.PNG"
     width = "1500"
-    height = "200"
+    height = "175"
   >
 </p>
 
