@@ -21,7 +21,7 @@ Using this plot, the following features are extracted:
 - Number of Peaks
 - Area under the curve
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/plots/E1.png"
     width = "300"
@@ -65,7 +65,7 @@ Data has been provided by Iuliu Hațieganu University of Medicine and Pharmacy.
 
 ## Architecture
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/architecture2.PNG"
     width = "1500"
@@ -134,7 +134,7 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
 
 A prediction was made based on the test set (10 samples). The results are as followed: from the 10 test samples, only one was correctly predicted.
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results1.PNG"
     width = "800"
@@ -144,7 +144,7 @@ A prediction was made based on the test set (10 samples). The results are as fol
 
 The results are pretty close to be correct. For instance, the prediction of the first sample from the test set was Pyoc_0, AeB_0, EnB_25, while the test set had PyoC_0, AeB_25, EnB_25. For the second sample from the test set, the prediction was PyoC_50, AeB_25, EnB_0, while the test set had PyoC_25, AeB_100, EnB_0.
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results2.PNG"
     width = "800"
@@ -154,7 +154,7 @@ The results are pretty close to be correct. For instance, the prediction of the 
 
 Accuracy is 0.1, since, from the 10 test samples, test sample 5 was correctly predicted.
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/results3.PNG"
     width = "400"
