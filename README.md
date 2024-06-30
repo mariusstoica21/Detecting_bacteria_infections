@@ -1,6 +1,6 @@
 <p align="left">
   <img 
-    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/header.png"
+    src="https://github.com/mariusstoica21/Detecting_bacteria_infections/blob/main/images/header.png"
   >
 </p>
 
